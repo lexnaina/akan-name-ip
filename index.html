@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akan Calculator</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/stylez.css">
+  <link rel="shortcut icon" href="images/ghanaIcon.ico" />
+</head>
+<body>
+  <div class="bg-img">
+    <form class="container">
+      <h1>Akan Name Calculator</h1>
+      <h2>Let the Name Speak!</h2>
+      <p>Frequently in Ghana, children are given their first name as a
+        'day name' which corresponds to the day in the week they were born on. The tradition comes from the
+        <em>Akan</em> tribe, who name their children by the day of their birth.<br>Wonder what
+        <strong>your</strong> Akan name is?</p>
+      <div class="form-group">
+        <label for="day">Day:</label>
+        <input type="number" min="1" max="31" placeholder="E.g. 28" class="form-control" id="day" required>
+      </div>
+      <div class="form-group">
+        <label for="Month">Month:</label>
+        <input type="number" min="1" max="12" placeholder="E.g. 6" class="form-control" id="month" required>
+      </div>
+      <div class="form-group">
+        <label for="year">Year:</label>
+        <input type="number" size="4" min="1582" max="4902" placeholder="E.g. 1914" class="form-control" id="year"
+          required>
+      </div>
+      <div class="genderq">
+        <div id="gender">
+          <input type="radio" id="male" name="gender" value="male"> Male
+          <input type="radio" id="female" name="gender" value="female" checked="checked"> Female
+        </div>
+      </div>
+      <div class="buttonq">
+        <br>
+        <button type="submit" class="btn" onclick="zeller()">
+          <p>Submit</p>
+        </button>
+      </div>
+      <footer>
+        <p><br>Montez Developers. © 2020.</p>
+      </footer>
+    </form>
+  </div>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

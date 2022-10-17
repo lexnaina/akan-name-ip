@@ -5,10 +5,10 @@ var key;
 
 function zeller() {
   var year = parseInt(document.getElementById("year").value);
-  if (year < 1582 || year > 4902) {
+  if (year < 1700 || year > 2022) {
     alert("Please fill in a valid year to continue")
     return (false)
-  } else if (year > 1581 && year < 4903) {
+  } else if (year > 1700 && year < 2022) {
     var yearAuth = year;
   }
   var month = parseInt(document.getElementById("month").value);

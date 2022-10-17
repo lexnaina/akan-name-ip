@@ -3,7 +3,7 @@
 akan-name-week2-ip
 
 ## Project description.
-A project consisting of an Akan calculator which takes in a date input and returns the corresponding Akan male/female name and day of the week. This project was created using HTML, bootstrap and JavaScript.
+A project consisting of an Akan calculator which takes in a date input and returns the corresponding Akan male/female name and day of the week. This project was created using HTML, bootstrap, CSS and JavaScript.
 
 ## Author(s) information.
 Created by Alex Kinyanjui
@@ -29,6 +29,6 @@ https://lexnaina.github.io/akan-name-ip
 
 ## License and Copyright information.
 
-Copyright @2022
+(C) 2022 Alex Kinyanjui
 
 
